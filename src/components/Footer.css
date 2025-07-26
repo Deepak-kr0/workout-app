@@ -1,0 +1,148 @@
+/* .footer {
+  background: linear-gradient(to right, #111, #222);
+  color: #eee;
+  padding: 40px 20px;
+  margin-top: 60px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.footer-text h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #2b7dfa;
+}
+
+.footer-text p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.tagline {
+  font-style: italic;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.footer-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2b7dfa;
+  box-shadow: 0 0 10px #2b7dfa70;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+} */
+
+
+.footer {
+  background-color: #0e0e0e;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #222;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: #2563eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  margin: 0.2rem 0;
+  color: #bbb;
+}
+
+.footer .tagline {
+  font-style: italic;
+  color: #aaa;
+}
+
+.footer-img {
+  margin-top: 1rem;
+}
+
+.footer-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.footer-img img:hover {
+  transform: scale(1.05);
+}
+
+.footer-bottom {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 1rem;
+  border-top: 1px solid #1f1f1f;
+  padding-top: 0.7rem;
+}
+
+/* STRICT MOBILE RESPONSIVENESS */
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem 0.5rem 0.5rem;
+  }
+
+  .footer h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer p {
+    font-size: 0.85rem;
+  }
+
+  .footer-img img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .footer-bottom {
+    font-size: 0.75rem;
+  }
+}

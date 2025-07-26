@@ -1,0 +1,177 @@
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+
+.home-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/fitlogo1.jpg") center/cover no-repeat;
+  filter: brightness(40%);
+  z-index: -1;
+}
+
+
+.hero {
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero h1 span {
+  color: #00ffcc;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.hero h3{
+  font-family: cursive;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00ffcc;
+  color: black;
+  font-size: 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #00cc99;
+  transform: scale(1.05);
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.feature-box {
+  background: rgba(55, 12, 210, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+  transform: scale(1.05);
+}
+
+.feature-box img {
+  width: 80px;
+}
+
+.feature-box h2 {
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.feature-box p {
+  font-size: 16px;
+  color:rgb(194, 167, 56)
+}
+
+
+.about {
+  margin: 80px auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.about h2 {
+  font-size: 32px;
+}
+
+.about h2 span {
+  color: #00ffcc;
+}
+.about p{
+  color:white;
+}
+
+
+.testimonials {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(114, 24, 241, 0.1);
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+}
+
+.testimonial p {
+  font-size: 18px;
+  font-style: italic;
+  color:rgb(212, 186, 56)
+}
+
+.testimonial h4 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
